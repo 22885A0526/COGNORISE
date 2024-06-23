@@ -1,3 +1,4 @@
+#TASK-1:  IRIS FLOWER CLASSIFICATION
 # Import necessary libraries
 import pandas as pd
 import seaborn as sns
@@ -8,8 +9,9 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 # Load the dataset
-url = "https://www.kaggle.com/datasets/arshid/iris-flower-dataset/download"
-df = pd.read_csv(url)
+# Use the correct path to your CSV file
+
+df = pd.read_csv('/content/IRIS.csv')
 
 # Display first few rows of the dataset
 print(df.head())
